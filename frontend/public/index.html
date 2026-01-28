@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#22c55e" />
+    <meta name="description" content="Impact Foundation - NGO Donation Management System. Donate today and change lives. 80G certified, secure payments, transparent donations." />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Razorpay -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    
+    <title>Impact Foundation - NGO Donation Management System</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta property="og:title" content="Impact Foundation - Donate Today, Change Lives" />
+    <meta property="og:description" content="Join us in making a difference. 80G certified NGO with transparent donation system and secure payment gateway." />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.jpg" />
+    <meta property="og:url" content="https://impactfoundation.org" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Impact Foundation",
+      "description": "NGO focused on education, healthcare, and community development",
+      "url": "https://impactfoundation.org",
+      "logo": "%PUBLIC_URL%/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-1234567890",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/impactfoundation",
+        "https://www.twitter.com/impactfoundation"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+        offset: 100
+      });
+    </script>
+  </body>
+</html>
